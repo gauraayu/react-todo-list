@@ -15,6 +15,25 @@ nav{
   padding: 0%;
   text-align: center;
 }
+.header{
+  background-color: white;
+  color: black;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.header > a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.header > a:hover {
+  color: #007bff;
+}
+
 
 .container{
   background-color: rgb(230, 181, 195);
@@ -156,4 +175,69 @@ button:hover {
   color: #333;
   text-align: center;
   font-size: 1rem;
+}
+
+.contact{
+  background-color: rgb(124, 136, 175);
+  color: black;
+  padding: 40px 20px;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.contact p {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.about{
+  background-color: rgb(124, 175, 144);
+  color: black;
+  padding: 40px 20px;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.about p {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+Footer{
+  background-color: rgb(124, 175, 144);
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+.user{
+  background-color: rgb(124, 175, 144);
+  color: black;
+  padding: 40px 20px;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
