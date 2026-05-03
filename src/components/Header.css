@@ -1,0 +1,11 @@
+nav {
+  background-color: #282c34;
+  color: white;
+  padding: 16px;
+  text-align: center;
+}
+
+nav h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
